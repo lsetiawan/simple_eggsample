@@ -1,0 +1,11 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "eggsample"
+version = "0.1.0"
+description = "The eggsample from an eggsellent cook"
+
+[project.scripts]
+eggsample = "eggsample.command_line_interface:main"
