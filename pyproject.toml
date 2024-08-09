@@ -7,6 +7,10 @@ name = "eggsample"
 version = "0.1.0"
 description = "The eggsample from an eggsellent cook"
 readme = "README.md"
+license = { file = "LICENSE" }
 
 [project.scripts]
 eggsample = "eggsample.command_line_interface:main"
+
+[project.optional-dependencies]
+test = ["pytest>=8.3.2,<9"]
