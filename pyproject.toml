@@ -6,6 +6,7 @@ build-backend = "hatchling.build"
 name = "eggsample"
 version = "0.1.0"
 description = "The eggsample from an eggsellent cook"
+readme = "README.md"
 
 [project.scripts]
 eggsample = "eggsample.command_line_interface:main"
